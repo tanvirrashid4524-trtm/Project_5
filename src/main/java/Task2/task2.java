@@ -24,11 +24,11 @@ public class task2 {
 
             int houseNumber = i + 1;
             if (houseNumber % 2 == 1) {
-                // odd = left
+                
                 leftSum += residents[i];
                 leftCount++;
             } else {
-                // even = right
+                
                 rightSum += residents[i];
                 rightCount++;
             }
