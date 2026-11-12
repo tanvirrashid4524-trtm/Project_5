@@ -56,7 +56,6 @@ public class task3 {
             }
         }
 
-        // 4. Students with at least one grade below 5
         System.out.println();
         System.out.println("Students with at least one grade below 5:");
         boolean found = false;
@@ -78,7 +77,6 @@ public class task3 {
         }
     }
 
-    // 8.0 hole 8 print korbe, 8.75 hole 8.75 print korbe
     private static void printAverage(double avg) {
         if (avg == (int) avg) {
             System.out.println((int) avg);
