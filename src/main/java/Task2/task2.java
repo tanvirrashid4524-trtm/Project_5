@@ -19,7 +19,6 @@ public class task2 {
         int leftCount = 0;
         int rightCount = 0;
 
-        // house number = i + 1, karon array 0 theke suru
         for (int i = 0; i < n; i++) {
             total += residents[i];
 
